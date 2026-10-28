@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>logs-to-evals: a test set picked from production logs, against one picked at random</title>
+    <meta name="description" content="Across 50 support logs of 5,000 lines, 60 cases picked by this selector hold failing examples of 7.62 of 8 known failure modes. 60 picked at random hold 2.92. Most of the difference is the users' own signal, and the page shows how much." />
+    <meta property="og:title" content="logs-to-evals: a test set picked from production logs" />
+    <meta property="og:description" content="Across 50 support logs of 5,000 lines, 60 cases picked by this selector hold failing examples of 7.62 of 8 known failure modes. 60 picked at random hold 2.92." />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://broikos-nikos.github.io/logs-to-evals/" />
+    <meta property="og:image" content="https://broikos-nikos.github.io/logs-to-evals/card.png" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="theme-color" content="#080604" />
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Crect width='16' height='16' fill='%23080604'/%3E%3Crect x='3' y='3' width='10' height='1.6' fill='%239a8f88'/%3E%3Crect x='3' y='6' width='10' height='1.6' fill='%23ff6a00'/%3E%3Crect x='3' y='9' width='10' height='1.6' fill='%239a8f88'/%3E%3Crect x='3' y='12' width='6' height='1.6' fill='%23ff6a00'/%3E%3C/svg%3E" />
+  </head>
+  <body>
+    <header class="masthead">
+      <p class="mono kicker">logs-to-evals</p>
+      <h1 id="headline"></h1>
+      <p class="lead" id="lead"></p>
+    </header>
+    <main>
+      <section class="panel" aria-labelledby="one-h">
+        <div class="bar">
+          <h2 id="one-h" class="mono label">One log, seed <span id="seed"></span>: the same 60 slots, two ways</h2>
+          <button type="button" class="chip" id="another">Another log</button>
+        </div>
+        <p class="note" id="working" role="status" aria-live="polite"></p>
+        <p class="note">Each case is shown scrubbed, as the selector saw it. The tags after it are the log's hidden truth: the failure modes the request triggers, whether it failed, and whether the user sent a signal. No picker sees the first two.</p>
+        <div class="two">
+          <div id="col-sel" class="col"></div>
+          <div id="col-rnd" class="col"></div>
+        </div>
+      </section>
+
+      <section aria-labelledby="all-h">
+        <h2 id="all-h" class="mono label">Across 50 logs it never saw</h2>
+        <div id="pickers" class="results"></div>
+        <figure class="chart"><svg id="chart" viewBox="0 0 640 220" role="img" aria-labelledby="chart-t"></svg><figcaption id="chart-t" class="note"></figcaption></figure>
+      </section>
+
+      <section aria-labelledby="mode-h">
+        <h2 id="mode-h" class="mono label">Each failure mode</h2>
+        <table id="per-mode" class="table"></table>
+      </section>
+
+      <section aria-labelledby="pii-h">
+        <h2 id="pii-h" class="mono label">What the scrubber removes</h2>
+        <div id="pii" class="results"></div>
+      </section>
+
+      <section aria-labelledby="fail-h">
+        <h2 id="fail-h" class="mono label">What it does not do</h2>
+        <div id="failures" class="failures"></div>
+      </section>
+    </main>
+    <footer class="foot mono">MIT licence. Synthetic logs. Source: <a href="https://github.com/Broikos-Nikos/logs-to-evals">github.com/Broikos-Nikos/logs-to-evals</a></footer>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>

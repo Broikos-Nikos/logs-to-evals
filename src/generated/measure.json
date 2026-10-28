@@ -1,0 +1,1563 @@
+{
+ "setup": {
+  "logs": 50,
+  "firstSeed": 1001,
+  "lastSeed": 1050,
+  "rows": 5000,
+  "budget": 60,
+  "draws": 200,
+  "twinDraws": 20,
+  "twinAt": 0.9,
+  "modes": 8,
+  "clusterAt": 0.6
+ },
+ "found": {
+  "selector": 7.62,
+  "unhappy": 7.094,
+  "blind": 3.38,
+  "random": 2.925,
+  "failing": 8
+ },
+ "touched": {
+  "selector": 7.92,
+  "unhappy": 7.305,
+  "blind": 6.8,
+  "random": 5.773
+ },
+ "twins": {
+  "selector": 0.019,
+  "unhappy": 0.442,
+  "blind": 0,
+  "random": 0.442
+ },
+ "allFound": {
+  "selector": 36,
+  "blind": 0
+ },
+ "versusUnhappy": {
+  "better": 41,
+  "worse": 9
+ },
+ "perMode": {
+  "refund_date": {
+   "says": "invents a refund date",
+   "selector": 50,
+   "blind": 28
+  },
+  "intl_rules": {
+   "says": "quotes the wrong rules for shipping abroad",
+   "selector": 49,
+   "blind": 28
+  },
+  "damaged_escalation": {
+   "says": "does not escalate a damaged item",
+   "selector": 50,
+   "blind": 28
+  },
+  "unsubscribe_confusion": {
+   "says": "cancels the plan when asked to stop emails",
+   "selector": 48,
+   "blind": 17
+  },
+  "greek": {
+   "says": "fails in Greek",
+   "selector": 50,
+   "blind": 25
+  },
+  "shouting": {
+   "says": "refuses when written in capitals",
+   "selector": 46,
+   "blind": 17
+  },
+  "long_message": {
+   "says": "truncates its answer to a long message",
+   "selector": 44,
+   "blind": 16
+  },
+  "vat_invoice": {
+   "says": "gets the VAT invoice format wrong",
+   "selector": 44,
+   "blind": 10
+  }
+ },
+ "perLog": [
+  {
+   "seed": 1001,
+   "failing": 8,
+   "signalRows": 485,
+   "selector": 8,
+   "unhappy": 7.27,
+   "blind": 4,
+   "random": 2.935,
+   "random0": 5
+  },
+  {
+   "seed": 1002,
+   "failing": 8,
+   "signalRows": 502,
+   "selector": 8,
+   "unhappy": 7.035,
+   "blind": 3,
+   "random": 2.76,
+   "random0": 2
+  },
+  {
+   "seed": 1003,
+   "failing": 8,
+   "signalRows": 538,
+   "selector": 6,
+   "unhappy": 7.3,
+   "blind": 3,
+   "random": 2.75,
+   "random0": 5
+  },
+  {
+   "seed": 1004,
+   "failing": 8,
+   "signalRows": 579,
+   "selector": 6,
+   "unhappy": 7.6,
+   "blind": 5,
+   "random": 3.635,
+   "random0": 6
+  },
+  {
+   "seed": 1005,
+   "failing": 8,
+   "signalRows": 450,
+   "selector": 7,
+   "unhappy": 7.38,
+   "blind": 3,
+   "random": 2.195,
+   "random0": 0
+  },
+  {
+   "seed": 1006,
+   "failing": 8,
+   "signalRows": 564,
+   "selector": 8,
+   "unhappy": 7.355,
+   "blind": 3,
+   "random": 3.325,
+   "random0": 1
+  },
+  {
+   "seed": 1007,
+   "failing": 8,
+   "signalRows": 740,
+   "selector": 8,
+   "unhappy": 7.19,
+   "blind": 5,
+   "random": 3.745,
+   "random0": 4
+  },
+  {
+   "seed": 1008,
+   "failing": 8,
+   "signalRows": 756,
+   "selector": 8,
+   "unhappy": 7.5,
+   "blind": 4,
+   "random": 4.41,
+   "random0": 5
+  },
+  {
+   "seed": 1009,
+   "failing": 8,
+   "signalRows": 550,
+   "selector": 7,
+   "unhappy": 7.225,
+   "blind": 5,
+   "random": 3.305,
+   "random0": 2
+  },
+  {
+   "seed": 1010,
+   "failing": 8,
+   "signalRows": 597,
+   "selector": 8,
+   "unhappy": 7.205,
+   "blind": 3,
+   "random": 3.7,
+   "random0": 5
+  },
+  {
+   "seed": 1011,
+   "failing": 8,
+   "signalRows": 639,
+   "selector": 8,
+   "unhappy": 6.74,
+   "blind": 3,
+   "random": 2.93,
+   "random0": 3
+  },
+  {
+   "seed": 1012,
+   "failing": 8,
+   "signalRows": 529,
+   "selector": 8,
+   "unhappy": 7.1,
+   "blind": 4,
+   "random": 2.6,
+   "random0": 3
+  },
+  {
+   "seed": 1013,
+   "failing": 8,
+   "signalRows": 493,
+   "selector": 8,
+   "unhappy": 7.055,
+   "blind": 3,
+   "random": 2.76,
+   "random0": 3
+  },
+  {
+   "seed": 1014,
+   "failing": 8,
+   "signalRows": 469,
+   "selector": 8,
+   "unhappy": 7.275,
+   "blind": 2,
+   "random": 2.35,
+   "random0": 2
+  },
+  {
+   "seed": 1015,
+   "failing": 8,
+   "signalRows": 559,
+   "selector": 8,
+   "unhappy": 7.145,
+   "blind": 3,
+   "random": 3.025,
+   "random0": 2
+  },
+  {
+   "seed": 1016,
+   "failing": 8,
+   "signalRows": 457,
+   "selector": 7,
+   "unhappy": 6.57,
+   "blind": 3,
+   "random": 2.12,
+   "random0": 3
+  },
+  {
+   "seed": 1017,
+   "failing": 8,
+   "signalRows": 457,
+   "selector": 8,
+   "unhappy": 7.15,
+   "blind": 2,
+   "random": 2.65,
+   "random0": 2
+  },
+  {
+   "seed": 1018,
+   "failing": 8,
+   "signalRows": 707,
+   "selector": 6,
+   "unhappy": 6.99,
+   "blind": 3,
+   "random": 3.54,
+   "random0": 4
+  },
+  {
+   "seed": 1019,
+   "failing": 8,
+   "signalRows": 504,
+   "selector": 8,
+   "unhappy": 6.845,
+   "blind": 4,
+   "random": 2.545,
+   "random0": 4
+  },
+  {
+   "seed": 1020,
+   "failing": 8,
+   "signalRows": 467,
+   "selector": 8,
+   "unhappy": 7.055,
+   "blind": 3,
+   "random": 2.33,
+   "random0": 1
+  },
+  {
+   "seed": 1021,
+   "failing": 8,
+   "signalRows": 615,
+   "selector": 7,
+   "unhappy": 6.635,
+   "blind": 4,
+   "random": 3.14,
+   "random0": 3
+  },
+  {
+   "seed": 1022,
+   "failing": 8,
+   "signalRows": 604,
+   "selector": 7,
+   "unhappy": 6.735,
+   "blind": 3,
+   "random": 3.23,
+   "random0": 4
+  },
+  {
+   "seed": 1023,
+   "failing": 8,
+   "signalRows": 448,
+   "selector": 8,
+   "unhappy": 6.86,
+   "blind": 3,
+   "random": 2.285,
+   "random0": 2
+  },
+  {
+   "seed": 1024,
+   "failing": 8,
+   "signalRows": 487,
+   "selector": 8,
+   "unhappy": 7.18,
+   "blind": 4,
+   "random": 2.555,
+   "random0": 6
+  },
+  {
+   "seed": 1025,
+   "failing": 8,
+   "signalRows": 473,
+   "selector": 7,
+   "unhappy": 7.185,
+   "blind": 3,
+   "random": 2.44,
+   "random0": 2
+  },
+  {
+   "seed": 1026,
+   "failing": 8,
+   "signalRows": 495,
+   "selector": 6,
+   "unhappy": 7.245,
+   "blind": 3,
+   "random": 3.005,
+   "random0": 3
+  },
+  {
+   "seed": 1027,
+   "failing": 8,
+   "signalRows": 598,
+   "selector": 8,
+   "unhappy": 6.905,
+   "blind": 3,
+   "random": 3.075,
+   "random0": 2
+  },
+  {
+   "seed": 1028,
+   "failing": 8,
+   "signalRows": 545,
+   "selector": 8,
+   "unhappy": 7.28,
+   "blind": 4,
+   "random": 3.155,
+   "random0": 3
+  },
+  {
+   "seed": 1029,
+   "failing": 8,
+   "signalRows": 500,
+   "selector": 8,
+   "unhappy": 7.505,
+   "blind": 4,
+   "random": 2.905,
+   "random0": 2
+  },
+  {
+   "seed": 1030,
+   "failing": 8,
+   "signalRows": 549,
+   "selector": 8,
+   "unhappy": 6.775,
+   "blind": 2,
+   "random": 2.53,
+   "random0": 1
+  },
+  {
+   "seed": 1031,
+   "failing": 8,
+   "signalRows": 443,
+   "selector": 8,
+   "unhappy": 7.155,
+   "blind": 5,
+   "random": 2.45,
+   "random0": 3
+  },
+  {
+   "seed": 1032,
+   "failing": 8,
+   "signalRows": 498,
+   "selector": 7,
+   "unhappy": 7.3,
+   "blind": 3,
+   "random": 3.17,
+   "random0": 2
+  },
+  {
+   "seed": 1033,
+   "failing": 8,
+   "signalRows": 450,
+   "selector": 8,
+   "unhappy": 6.79,
+   "blind": 3,
+   "random": 2.235,
+   "random0": 2
+  },
+  {
+   "seed": 1034,
+   "failing": 8,
+   "signalRows": 488,
+   "selector": 6,
+   "unhappy": 7.325,
+   "blind": 2,
+   "random": 2.52,
+   "random0": 3
+  },
+  {
+   "seed": 1035,
+   "failing": 8,
+   "signalRows": 655,
+   "selector": 8,
+   "unhappy": 7.04,
+   "blind": 3,
+   "random": 3.36,
+   "random0": 5
+  },
+  {
+   "seed": 1036,
+   "failing": 8,
+   "signalRows": 472,
+   "selector": 8,
+   "unhappy": 6.995,
+   "blind": 2,
+   "random": 2.31,
+   "random0": 1
+  },
+  {
+   "seed": 1037,
+   "failing": 8,
+   "signalRows": 432,
+   "selector": 8,
+   "unhappy": 7.315,
+   "blind": 4,
+   "random": 2.305,
+   "random0": 1
+  },
+  {
+   "seed": 1038,
+   "failing": 8,
+   "signalRows": 586,
+   "selector": 8,
+   "unhappy": 7.08,
+   "blind": 3,
+   "random": 3.34,
+   "random0": 5
+  },
+  {
+   "seed": 1039,
+   "failing": 8,
+   "signalRows": 746,
+   "selector": 8,
+   "unhappy": 6.785,
+   "blind": 5,
+   "random": 3.95,
+   "random0": 5
+  },
+  {
+   "seed": 1040,
+   "failing": 8,
+   "signalRows": 514,
+   "selector": 8,
+   "unhappy": 7.335,
+   "blind": 3,
+   "random": 2.98,
+   "random0": 2
+  },
+  {
+   "seed": 1041,
+   "failing": 8,
+   "signalRows": 524,
+   "selector": 7,
+   "unhappy": 6.735,
+   "blind": 4,
+   "random": 2.955,
+   "random0": 4
+  },
+  {
+   "seed": 1042,
+   "failing": 8,
+   "signalRows": 699,
+   "selector": 8,
+   "unhappy": 6.56,
+   "blind": 4,
+   "random": 3.4,
+   "random0": 2
+  },
+  {
+   "seed": 1043,
+   "failing": 8,
+   "signalRows": 480,
+   "selector": 8,
+   "unhappy": 7.295,
+   "blind": 2,
+   "random": 2.84,
+   "random0": 2
+  },
+  {
+   "seed": 1044,
+   "failing": 8,
+   "signalRows": 558,
+   "selector": 8,
+   "unhappy": 7.485,
+   "blind": 3,
+   "random": 3.275,
+   "random0": 5
+  },
+  {
+   "seed": 1045,
+   "failing": 8,
+   "signalRows": 563,
+   "selector": 8,
+   "unhappy": 7.25,
+   "blind": 5,
+   "random": 3.115,
+   "random0": 4
+  },
+  {
+   "seed": 1046,
+   "failing": 8,
+   "signalRows": 456,
+   "selector": 7,
+   "unhappy": 6.785,
+   "blind": 2,
+   "random": 2.135,
+   "random0": 5
+  },
+  {
+   "seed": 1047,
+   "failing": 8,
+   "signalRows": 496,
+   "selector": 8,
+   "unhappy": 7.225,
+   "blind": 3,
+   "random": 2.47,
+   "random0": 0
+  },
+  {
+   "seed": 1048,
+   "failing": 8,
+   "signalRows": 658,
+   "selector": 8,
+   "unhappy": 6.72,
+   "blind": 2,
+   "random": 3.27,
+   "random0": 4
+  },
+  {
+   "seed": 1049,
+   "failing": 8,
+   "signalRows": 720,
+   "selector": 8,
+   "unhappy": 6.93,
+   "blind": 7,
+   "random": 3.895,
+   "random0": 6
+  },
+  {
+   "seed": 1050,
+   "failing": 8,
+   "signalRows": 462,
+   "selector": 8,
+   "unhappy": 7.285,
+   "blind": 3,
+   "random": 2.33,
+   "random0": 2
+  }
+ ],
+ "pii": {
+  "email": {
+   "in": 80,
+   "left": 0
+  },
+  "name": {
+   "in": 130,
+   "left": 86
+  },
+  "phone": {
+   "in": 92,
+   "left": 0
+  },
+  "card": {
+   "in": 78,
+   "left": 0
+  }
+ },
+ "example": {
+  "seed": 1001,
+  "rows": 5000,
+  "signalRows": 485,
+  "selector": {
+   "found": [
+    "damaged_escalation",
+    "greek",
+    "intl_rules",
+    "long_message",
+    "refund_date",
+    "shouting",
+    "unsubscribe_confusion",
+    "vat_invoice"
+   ],
+   "picks": [
+    {
+     "text": "how do i change my password",
+     "why": "unhappy",
+     "signal": true,
+     "modes": [],
+     "failed": false
+    },
+    {
+     "text": "unsubscribe me from the plan my email is <EMAIL>",
+     "why": "unhappy",
+     "signal": true,
+     "modes": [
+      "unsubscribe_confusion"
+     ],
+     "failed": true
+    },
+    {
+     "text": "reset my password - Carlos Ruiz",
+     "why": "unhappy",
+     "signal": true,
+     "modes": [],
+     "failed": false
+    },
+    {
+     "text": "cannot log in, need a new password",
+     "why": "unhappy",
+     "signal": true,
+     "modes": [],
+     "failed": false
+    },
+    {
+     "text": "i forgot my password",
+     "why": "unhappy",
+     "signal": true,
+     "modes": [],
+     "failed": false
+    },
+    {
+     "text": "status of the refund on 4283",
+     "why": "unhappy",
+     "signal": true,
+     "modes": [
+      "refund_date"
+     ],
+     "failed": true
+    },
+    {
+     "text": "reset my password. i have been a customer for a long time and i really like your shop but this has happened to me before and last time it took weeks to sort out and nobody called me back so i would like this handled properly this time because it is important to me",
+     "why": "unhappy",
+     "signal": true,
+     "modes": [
+      "long_message"
+     ],
+     "failed": true
+    },
+    {
+     "text": "δεν μπορώ να συνδεθώ",
+     "why": "unhappy",
+     "signal": true,
+     "modes": [
+      "greek"
+     ],
+     "failed": true
+    },
+    {
+     "text": "CANCEL MY SUBSCRIPTION",
+     "why": "unhappy",
+     "signal": true,
+     "modes": [
+      "shouting"
+     ],
+     "failed": true
+    },
+    {
+     "text": "refund for order #<ORDER> has not arrived",
+     "why": "unhappy",
+     "signal": true,
+     "modes": [
+      "refund_date"
+     ],
+     "failed": true
+    },
+    {
+     "text": "DO YOU SHIP ABROAD",
+     "why": "unhappy",
+     "signal": true,
+     "modes": [
+      "intl_rules",
+      "shouting"
+     ],
+     "failed": true
+    },
+    {
+     "text": "Eleni Dimitriou here, international shipping available",
+     "why": "unhappy",
+     "signal": true,
+     "modes": [
+      "intl_rules"
+     ],
+     "failed": true
+    },
+    {
+     "text": "ξέχασα τον κωδικό μου",
+     "why": "unhappy",
+     "signal": true,
+     "modes": [
+      "greek"
+     ],
+     "failed": true
+    },
+    {
+     "text": "i want to stop my subscription",
+     "why": "unhappy",
+     "signal": true,
+     "modes": [],
+     "failed": false
+    },
+    {
+     "text": "how do i unsubscribe from emails",
+     "why": "unhappy",
+     "signal": true,
+     "modes": [
+      "unsubscribe_confusion"
+     ],
+     "failed": true
+    },
+    {
+     "text": "can you deliver to germany",
+     "why": "unhappy",
+     "signal": true,
+     "modes": [
+      "intl_rules"
+     ],
+     "failed": true
+    },
+    {
+     "text": "this is <NAME>, how do i cancel my monthly plan",
+     "why": "unhappy",
+     "signal": true,
+     "modes": [],
+     "failed": false
+    },
+    {
+     "text": "end my membership please",
+     "why": "unhappy",
+     "signal": true,
+     "modes": [],
+     "failed": true
+    },
+    {
+     "text": "i keep getting promotional emails",
+     "why": "unhappy",
+     "signal": true,
+     "modes": [],
+     "failed": false
+    },
+    {
+     "text": "shipping costs to greece",
+     "why": "unhappy",
+     "signal": true,
+     "modes": [],
+     "failed": false
+    },
+    {
+     "text": "cancel order <ORDER>",
+     "why": "unhappy",
+     "signal": true,
+     "modes": [],
+     "failed": false
+    },
+    {
+     "text": "WHAT ARE THE DELIVERY FEES my email is <EMAIL>",
+     "why": "unhappy",
+     "signal": true,
+     "modes": [
+      "shouting"
+     ],
+     "failed": false
+    },
+    {
+     "text": "opt out of marketing messages",
+     "why": "unhappy",
+     "signal": true,
+     "modes": [],
+     "failed": false
+    },
+    {
+     "text": "do you charge for delivery",
+     "why": "unhappy",
+     "signal": true,
+     "modes": [],
+     "failed": false
+    },
+    {
+     "text": "πόσο κάνουν τα μεταφορικά",
+     "why": "unhappy",
+     "signal": true,
+     "modes": [
+      "greek"
+     ],
+     "failed": true
+    },
+    {
+     "text": "ship to cyprus?",
+     "why": "unhappy",
+     "signal": true,
+     "modes": [
+      "intl_rules"
+     ],
+     "failed": false
+    },
+    {
+     "text": "order #<ORDER> came broken",
+     "why": "unhappy",
+     "signal": true,
+     "modes": [
+      "damaged_escalation"
+     ],
+     "failed": false
+    },
+    {
+     "text": "received a broken product in order <ORDER> call me on <PHONE>",
+     "why": "unhappy",
+     "signal": true,
+     "modes": [
+      "damaged_escalation"
+     ],
+     "failed": true
+    },
+    {
+     "text": "THE ITEM FROM ORDER <ORDER> ARRIVED DAMAGED - Anna Schmidt",
+     "why": "unhappy",
+     "signal": true,
+     "modes": [
+      "damaged_escalation",
+      "shouting"
+     ],
+     "failed": true
+    },
+    {
+     "text": "when will i get the money back for order <ORDER>",
+     "why": "unhappy",
+     "signal": true,
+     "modes": [
+      "refund_date"
+     ],
+     "failed": true
+    },
+    {
+     "text": "how much is shipping",
+     "why": "unhappy",
+     "signal": true,
+     "modes": [],
+     "failed": true
+    },
+    {
+     "text": "the package 4977 was damaged when it arrived",
+     "why": "unhappy",
+     "signal": true,
+     "modes": [
+      "damaged_escalation"
+     ],
+     "failed": true
+    },
+    {
+     "text": "stop sending me newsletters",
+     "why": "unhappy",
+     "signal": true,
+     "modes": [],
+     "failed": false
+    },
+    {
+     "text": "how long is the warranty",
+     "why": "unhappy",
+     "signal": true,
+     "modes": [],
+     "failed": false
+    },
+    {
+     "text": "warranty terms",
+     "why": "unhappy",
+     "signal": true,
+     "modes": [],
+     "failed": false
+    },
+    {
+     "text": "what are your opening hours - John Smith",
+     "why": "unhappy",
+     "signal": true,
+     "modes": [],
+     "failed": false
+    },
+    {
+     "text": "ask for Maria Papadopoulou: refund for order #<ORDER> has not arrived",
+     "why": "unhappy",
+     "signal": true,
+     "modes": [
+      "refund_date"
+     ],
+     "failed": true
+    },
+    {
+     "text": "πόσο καθυστερεί η αποστολή",
+     "why": "unhappy",
+     "signal": true,
+     "modes": [
+      "greek"
+     ],
+     "failed": false
+    },
+    {
+     "text": "my device broke, is it under warranty",
+     "why": "unhappy",
+     "signal": true,
+     "modes": [],
+     "failed": true
+    },
+    {
+     "text": "i need a tax invoice with the vat number for order <ORDER>",
+     "why": "unhappy",
+     "signal": true,
+     "modes": [
+      "vat_invoice"
+     ],
+     "failed": true
+    },
+    {
+     "text": "do you take credit cards",
+     "why": "unhappy",
+     "signal": true,
+     "modes": [],
+     "failed": false
+    },
+    {
+     "text": "please cancel my order #<ORDER>",
+     "why": "unhappy",
+     "signal": true,
+     "modes": [],
+     "failed": false
+    },
+    {
+     "text": "phone number for support",
+     "why": "unhappy",
+     "signal": true,
+     "modes": [],
+     "failed": false
+    },
+    {
+     "text": "edit the billing address in my profile",
+     "why": "unhappy",
+     "signal": true,
+     "modes": [],
+     "failed": false
+    },
+    {
+     "text": "I WANT MY ACCOUNT DELETED",
+     "why": "unhappy",
+     "signal": true,
+     "modes": [
+      "shouting"
+     ],
+     "failed": true
+    },
+    {
+     "text": "when are you open",
+     "why": "unhappy",
+     "signal": true,
+     "modes": [],
+     "failed": false
+    },
+    {
+     "text": "stop order <ORDER>, i changed my mind",
+     "why": "unhappy",
+     "signal": true,
+     "modes": [],
+     "failed": true
+    },
+    {
+     "text": "change the delivery address for order <ORDER>",
+     "why": "unhappy",
+     "signal": true,
+     "modes": [],
+     "failed": true
+    },
+    {
+     "text": "δέχεστε αντικαταβολή",
+     "why": "unhappy",
+     "signal": true,
+     "modes": [
+      "greek"
+     ],
+     "failed": true
+    },
+    {
+     "text": "τι χρεώνετε για αποστολή",
+     "why": "unhappy",
+     "signal": true,
+     "modes": [
+      "greek"
+     ],
+     "failed": true
+    },
+    {
+     "text": "add a gift message",
+     "why": "unhappy",
+     "signal": true,
+     "modes": [],
+     "failed": false
+    },
+    {
+     "text": "HOW DO I CLOSE MY ACCOUNT PERMANENTLY",
+     "why": "unhappy",
+     "signal": true,
+     "modes": [
+      "shouting"
+     ],
+     "failed": true
+    },
+    {
+     "text": "wrong address on order <ORDER>, can you fix it",
+     "why": "unhappy",
+     "signal": true,
+     "modes": [],
+     "failed": false
+    },
+    {
+     "text": "do you offer gift wrapping",
+     "why": "unhappy",
+     "signal": true,
+     "modes": [],
+     "failed": false
+    },
+    {
+     "text": "σε πόσες μέρες παραδίδετε",
+     "why": "unhappy",
+     "signal": true,
+     "modes": [
+      "greek"
+     ],
+     "failed": true
+    },
+    {
+     "text": "θέλω να ακυρώσω την παραγγελία 1116",
+     "why": "unhappy",
+     "signal": true,
+     "modes": [
+      "greek"
+     ],
+     "failed": false
+    },
+    {
+     "text": "support hours",
+     "why": "unhappy",
+     "signal": true,
+     "modes": [],
+     "failed": false
+    },
+    {
+     "text": "can i pay with paypal",
+     "why": "unhappy",
+     "signal": true,
+     "modes": [],
+     "failed": false
+    },
+    {
+     "text": "ακύρωση παραγγελίας 1044",
+     "why": "unhappy",
+     "signal": true,
+     "modes": [
+      "greek"
+     ],
+     "failed": true
+    },
+    {
+     "text": "is this item in stock",
+     "why": "unhappy",
+     "signal": true,
+     "modes": [],
+     "failed": false
+    }
+   ]
+  },
+  "random": {
+   "found": [
+    "damaged_escalation",
+    "greek",
+    "intl_rules",
+    "long_message",
+    "refund_date"
+   ],
+   "picks": [
+    {
+     "text": "ship to cyprus?",
+     "why": "random",
+     "signal": false,
+     "modes": [
+      "intl_rules"
+     ],
+     "failed": false
+    },
+    {
+     "text": "warranty terms",
+     "why": "random",
+     "signal": true,
+     "modes": [],
+     "failed": false
+    },
+    {
+     "text": "can you deliver to germany",
+     "why": "random",
+     "signal": false,
+     "modes": [
+      "intl_rules"
+     ],
+     "failed": false
+    },
+    {
+     "text": "remove all my data from your site",
+     "why": "random",
+     "signal": false,
+     "modes": [],
+     "failed": false
+    },
+    {
+     "text": "unsubscribe me from the plan",
+     "why": "random",
+     "signal": false,
+     "modes": [
+      "unsubscribe_confusion"
+     ],
+     "failed": false
+    },
+    {
+     "text": "i want to stop my subscription",
+     "why": "random",
+     "signal": false,
+     "modes": [],
+     "failed": false
+    },
+    {
+     "text": "my device broke, is it under warranty",
+     "why": "random",
+     "signal": false,
+     "modes": [],
+     "failed": false
+    },
+    {
+     "text": "apply a voucher at checkout",
+     "why": "random",
+     "signal": false,
+     "modes": [],
+     "failed": false
+    },
+    {
+     "text": "do you ship abroad",
+     "why": "random",
+     "signal": false,
+     "modes": [
+      "intl_rules"
+     ],
+     "failed": false
+    },
+    {
+     "text": "reset my password",
+     "why": "random",
+     "signal": false,
+     "modes": [],
+     "failed": false
+    },
+    {
+     "text": "how do i change my password",
+     "why": "random",
+     "signal": false,
+     "modes": [],
+     "failed": false
+    },
+    {
+     "text": "what are the delivery fees",
+     "why": "random",
+     "signal": false,
+     "modes": [],
+     "failed": false
+    },
+    {
+     "text": "order #<ORDER> came broken",
+     "why": "random",
+     "signal": true,
+     "modes": [
+      "damaged_escalation"
+     ],
+     "failed": true
+    },
+    {
+     "text": "has order #<ORDER> shipped yet",
+     "why": "random",
+     "signal": false,
+     "modes": [],
+     "failed": false
+    },
+    {
+     "text": "i want to talk to a human",
+     "why": "random",
+     "signal": false,
+     "modes": [],
+     "failed": false
+    },
+    {
+     "text": "order #<ORDER> came broken",
+     "why": "random",
+     "signal": true,
+     "modes": [
+      "damaged_escalation"
+     ],
+     "failed": true
+    },
+    {
+     "text": "i keep getting promotional emails",
+     "why": "random",
+     "signal": false,
+     "modes": [],
+     "failed": false
+    },
+    {
+     "text": "cannot log in, need a new password",
+     "why": "random",
+     "signal": false,
+     "modes": [],
+     "failed": false
+    },
+    {
+     "text": "i want to stop my subscription",
+     "why": "random",
+     "signal": false,
+     "modes": [],
+     "failed": false
+    },
+    {
+     "text": "what is the delivery time",
+     "why": "random",
+     "signal": false,
+     "modes": [],
+     "failed": false
+    },
+    {
+     "text": "reset my password",
+     "why": "random",
+     "signal": false,
+     "modes": [],
+     "failed": false
+    },
+    {
+     "text": "can i return an item and get my money back",
+     "why": "random",
+     "signal": false,
+     "modes": [],
+     "failed": false
+    },
+    {
+     "text": "ship to cyprus?. i have been a customer for a long time and i really like your shop but this has happened to me before and last time it took weeks to sort out and nobody called me back so i would like this handled properly this time because it is important to me",
+     "why": "random",
+     "signal": true,
+     "modes": [
+      "intl_rules",
+      "long_message"
+     ],
+     "failed": true
+    },
+    {
+     "text": "i want to cancel order number <ORDER> my email is <EMAIL>",
+     "why": "random",
+     "signal": false,
+     "modes": [],
+     "failed": false
+    },
+    {
+     "text": "ξέχασα τον κωδικό μου",
+     "why": "random",
+     "signal": false,
+     "modes": [
+      "greek"
+     ],
+     "failed": false
+    },
+    {
+     "text": "πόσο κάνουν τα μεταφορικά",
+     "why": "random",
+     "signal": true,
+     "modes": [
+      "greek"
+     ],
+     "failed": true
+    },
+    {
+     "text": "is the store open on sunday",
+     "why": "random",
+     "signal": false,
+     "modes": [],
+     "failed": false
+    },
+    {
+     "text": "i want to stop my subscription",
+     "why": "random",
+     "signal": false,
+     "modes": [],
+     "failed": false
+    },
+    {
+     "text": "how do i change my password",
+     "why": "random",
+     "signal": false,
+     "modes": [],
+     "failed": false
+    },
+    {
+     "text": "i keep getting promotional emails",
+     "why": "random",
+     "signal": false,
+     "modes": [],
+     "failed": false
+    },
+    {
+     "text": "how much is shipping",
+     "why": "random",
+     "signal": false,
+     "modes": [],
+     "failed": false
+    },
+    {
+     "text": "i need to update the shipping address on order #<ORDER>",
+     "why": "random",
+     "signal": false,
+     "modes": [],
+     "failed": false
+    },
+    {
+     "text": "ask for Sofia Rossi: when are you open",
+     "why": "random",
+     "signal": false,
+     "modes": [],
+     "failed": false
+    },
+    {
+     "text": "the item from order <ORDER> arrived damaged",
+     "why": "random",
+     "signal": true,
+     "modes": [
+      "damaged_escalation"
+     ],
+     "failed": true
+    },
+    {
+     "text": "change my saved address regards, <NAME>",
+     "why": "random",
+     "signal": false,
+     "modes": [],
+     "failed": false
+    },
+    {
+     "text": "can i get a tax invoice for 4730 call me on <PHONE>",
+     "why": "random",
+     "signal": false,
+     "modes": [],
+     "failed": false
+    },
+    {
+     "text": "i keep getting promotional emails",
+     "why": "random",
+     "signal": false,
+     "modes": [],
+     "failed": false
+    },
+    {
+     "text": "how much is shipping",
+     "why": "random",
+     "signal": false,
+     "modes": [],
+     "failed": false
+    },
+    {
+     "text": "cancel order <ORDER> call me on <PHONE>",
+     "why": "random",
+     "signal": false,
+     "modes": [],
+     "failed": false
+    },
+    {
+     "text": "how do i change my password",
+     "why": "random",
+     "signal": false,
+     "modes": [],
+     "failed": false
+    },
+    {
+     "text": "received a broken product in order <ORDER>. i have been a customer for a long time and i really like your shop but this has happened to me before and last time it took weeks to sort out and nobody called me back so i would like this handled properly this time because it is important to me",
+     "why": "random",
+     "signal": false,
+     "modes": [
+      "damaged_escalation",
+      "long_message"
+     ],
+     "failed": false
+    },
+    {
+     "text": "do you charge for delivery",
+     "why": "random",
+     "signal": true,
+     "modes": [],
+     "failed": false
+    },
+    {
+     "text": "δεν μπορώ να συνδεθώ",
+     "why": "random",
+     "signal": false,
+     "modes": [
+      "greek"
+     ],
+     "failed": false
+    },
+    {
+     "text": "how many days for shipping",
+     "why": "random",
+     "signal": false,
+     "modes": [],
+     "failed": false
+    },
+    {
+     "text": "i forgot my password",
+     "why": "random",
+     "signal": false,
+     "modes": [],
+     "failed": false
+    },
+    {
+     "text": "how do i change my password",
+     "why": "random",
+     "signal": false,
+     "modes": [],
+     "failed": false
+    },
+    {
+     "text": "how do i change my password",
+     "why": "random",
+     "signal": false,
+     "modes": [],
+     "failed": false
+    },
+    {
+     "text": "warranty terms",
+     "why": "random",
+     "signal": false,
+     "modes": [],
+     "failed": false
+    },
+    {
+     "text": "end my membership please",
+     "why": "random",
+     "signal": false,
+     "modes": [],
+     "failed": false
+    },
+    {
+     "text": "do you take credit cards. i have been a customer for a long time and i really like your shop but this has happened to me before and last time it took weeks to sort out and nobody called me back so i would like this handled properly this time because it is important to me",
+     "why": "random",
+     "signal": false,
+     "modes": [
+      "long_message"
+     ],
+     "failed": false
+    },
+    {
+     "text": "part of order #<ORDER> did not arrive",
+     "why": "random",
+     "signal": false,
+     "modes": [],
+     "failed": false
+    },
+    {
+     "text": "how do i update my address in my account",
+     "why": "random",
+     "signal": false,
+     "modes": [],
+     "failed": false
+    },
+    {
+     "text": "what does the warranty cover",
+     "why": "random",
+     "signal": false,
+     "modes": [],
+     "failed": false
+    },
+    {
+     "text": "refund for order #<ORDER> has not arrived",
+     "why": "random",
+     "signal": true,
+     "modes": [
+      "refund_date"
+     ],
+     "failed": true
+    },
+    {
+     "text": "i want my account deleted",
+     "why": "random",
+     "signal": false,
+     "modes": [],
+     "failed": false
+    },
+    {
+     "text": "please cancel my order #<ORDER>",
+     "why": "random",
+     "signal": false,
+     "modes": [],
+     "failed": false
+    },
+    {
+     "text": "cannot log in, need a new password",
+     "why": "random",
+     "signal": false,
+     "modes": [],
+     "failed": false
+    },
+    {
+     "text": "what are the delivery fees",
+     "why": "random",
+     "signal": false,
+     "modes": [],
+     "failed": false
+    },
+    {
+     "text": "do you charge for delivery",
+     "why": "random",
+     "signal": true,
+     "modes": [],
+     "failed": false
+    },
+    {
+     "text": "reset my password",
+     "why": "random",
+     "signal": false,
+     "modes": [],
+     "failed": false
+    }
+   ]
+  }
+ }
+}

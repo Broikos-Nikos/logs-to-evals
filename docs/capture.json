@@ -1,0 +1,9 @@
+{
+ "headline": "Across 50 support logs of 5,000 lines, 60 cases picked by this selector hold failing examples of 7.62 of 8 known failure modes. 60 picked at random hold 2.92.",
+ "seed": "1001",
+ "counts": [
+  "8",
+  "5"
+ ],
+ "first": "how do i change my password"
+}
