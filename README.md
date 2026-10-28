@@ -4,7 +4,7 @@
 
 A test set built from production logs is worth the failures it holds: each failing example is a case the fixed system has to get right. This picks one. It scrubs the personal data out, clusters the requests by meaning, spends the budget on clusters in proportion to their traffic and to how often their users were unhappy, and inside a cluster takes the unhappy rows first and then the rows least like those already taken.
 
-Most of what it finds, the users found first: 60 random rows that carry a thumbs down, a re-ask or an escalation hold 7.09, and the selector with that signal taken away holds 3.38. The page shows one log both ways, and builds any of the 50 logs again in the browser.
+Most of what it finds, the users found first: 60 random rows that carry a thumbs down, a re-ask or an escalation hold 7.09, and the selector with that signal taken away holds 3.38. **[The page is live.](https://broikos-nikos.github.io/logs-to-evals/)** It shows one log both ways, and builds any of the 50 logs again in the browser.
 
 ![The page: one log, its 60 cases picked by the selector and 60 picked at random, with the failure modes each set holds](docs/logs-to-evals.png)
 
